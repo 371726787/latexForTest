@@ -1,0 +1,14 @@
+#source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git’
+#source 'https://github.com/volcengine/volcengine-specs.git'
+
+platform :ios, '16.0'
+inhibit_all_warnings!
+
+workspace 'test.xcworkspace'
+project 'test.xcodeproj'
+
+install! 'cocoapods', :deterministic_uuids => false
+
+target "test" do
+#  pod 'iosMath'
+end

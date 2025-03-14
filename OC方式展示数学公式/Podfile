@@ -1,0 +1,10 @@
+
+
+workspace 'test.xcworkspace'
+project 'test.xcodeproj'
+
+install! 'cocoapods', :deterministic_uuids => false
+
+target 'test' do
+  pod 'iosMath'
+end
